@@ -19,29 +19,28 @@ section {
 
 
 .text {
-    background: #ffffff;
     color: #000000;
-    padding: 40px;
-    padding-bottom: 25px;
+    padding: 10px;
+    padding-bottom: 15px;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    margin: 20px;
-    margin-bottom: 25px;
+    margin: 2rem;
     box-sizing: border-box;
+    flex: 1 1 0;
 }
 
 .text h2 {
-    text-align: center;
+    text-align:left;
 }
 
 .photo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
-    padding: 25px;
+    align-content: flex-start;
+    flex-direction: row;
+    padding: 5px;
     color: #000000;
+    flex: 1 1 0;
 }
 
 
@@ -50,10 +49,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 1px;
 }
 
 #lion {
@@ -61,20 +58,16 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 1px;
 }
 #tiger {
     background: #B26219;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 1px;
 }
 header {
     background: #666;
